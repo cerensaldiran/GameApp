@@ -12,7 +12,7 @@ namespace GameApp
                 Name = "Ceren",
                 LastName = "Saldıran",
                 BirthYear = "1999",
-                NationalityId = "39386033432"
+                NationalityId = "12121212121"
             };
             GamerManager gamerManager = new GamerManager(new GamerCheckManager());
             gamerManager.Add(gamer);
