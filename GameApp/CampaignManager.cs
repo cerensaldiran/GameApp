@@ -10,7 +10,7 @@ namespace GameApp
     {
         public void Add(Campaign campaign, Game game)
         {
-            Console.WriteLine(campaign.DiscountRate+"% "+campaign.CampaignName+ " is added!"+" New Price is "+(game.GamePrice*campaign.DiscountRate/100));
+            Console.WriteLine(campaign.DiscountRate+"% "+campaign.CampaignName+ " is added!"+" New Price is "+(game.GamePrice-(game.GamePrice*campaign.DiscountRate/100)));
         }
 
         public void Delete(Campaign campaign, Game game)
